@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(16, 31, 35);
+}
+
+
+.grid{
+    margin:100px 0 0 200px;
+    position: absolute;
+    
+    height:500px;
+    width: 790px;
+    background-image:url('space.png');
+    background-size: cover;
+    
+}
+.block{
+    position: absolute;
+    height:20px;
+    width:100px;
+    background-color: rgb(26, 26, 45);
+    border:1px solid rgb(255, 255, 255)
+}
+.user{
+    position: absolute;
+    width:100px;
+    height:20px;
+    background-color: brown;
+}
+.ball{
+    position: absolute;
+    height:20px;
+    width:20px;
+    border-radius: 20px;
+    background-color:red;
+}
